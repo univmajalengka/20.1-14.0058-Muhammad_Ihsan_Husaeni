@@ -1,0 +1,15 @@
+program Fungsu_Bilangan_genap_dan_ganjil;
+uses crt;
+
+var bil:integer;
+
+begin
+writeln('Menentrukan Jenis Bilangan');
+writeln('==========================');
+write('Masukan angka  : ');readln(bil);
+if bil mod 2=0 then
+writeln('Bilangan genap')
+else
+writeln('Bilangan ganjil');
+readln;
+end.
